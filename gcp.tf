@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = "${file("/home/pulse/gke/api-exercise.json")}"
-  project     = "${var.project}"
-  region      = "${var.region}"
+  credentials = file("/config/api-exercise.json")
+  project     = var.project
+  region      = var.region
 }
