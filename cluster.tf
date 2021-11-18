@@ -44,7 +44,7 @@ resource "google_container_node_pool" "preemptible_nodes" {
   }
 
   node_config {
-    image_type   = "Ubuntu"
+    image_type   = "cos_containerd"
     preemptible  = true
     disk_size_gb = var.disk_size_gb
     disk_type    = var.disk_type
