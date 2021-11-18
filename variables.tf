@@ -7,11 +7,11 @@ variable "region" {
 }
 
 variable "cluster_name" {
-  # default = "api-cluster-1"
+  default = "api-cluster-1"
 }
 
 variable "cluster_k8s_version" {
-  # default = "1.21.5-gke.1302"
+  default = "1.21.5-gke.1302"
 }
 
 variable "initial_node_count" {
@@ -23,7 +23,7 @@ variable "autoscaling_min_node_count" {
 }
 
 variable "autoscaling_max_node_count" {
-  # default = 30
+  default = 30
 }
 
 variable "disk_size_gb" {
@@ -35,5 +35,5 @@ variable "disk_type" {
 }
 
 variable "machine_type" {
-  # default = "e2-medium"
+  default = "e2-medium"
 }
