@@ -35,5 +35,5 @@ variable "disk_type" {
 }
 
 variable "machine_type" {
-  default = "e2-medium-2"
+  default = "e2-medium"
 }
